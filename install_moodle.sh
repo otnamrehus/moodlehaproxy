@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Fungsi untuk menampilkan menu
+# Fungsi untuk menampilkan menu 
 show_menu() {
     echo "Pilihan perintah:"
     echo "1)  1st[INSTALL-1 Moodle - 1 MariaDB]  .:: Ctrl+C for Stop/Idle ::."
