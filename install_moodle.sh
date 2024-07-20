@@ -9,9 +9,9 @@ show_menu() {
     echo "2s)  2nd[INSTALL-2 Moodle - 1 MariaDB - 1 Haproxy] .:: For Silent ::."
     echo "3)  STOP Service"
     echo "4)  START Service"
-    echo "5)  Remove Service"
-    echo "6)  Lihat isi direktori"
-    echo "x)  Keluar"
+    echo "5)  REMOVE Service [ALL]"
+    echo "6)  ViEW DIREKTORI"
+    echo "x)  EXIT"
 }
 
 # Fungsi untuk menjalankan perintah sesuai pilihan
