@@ -19,27 +19,27 @@ run_command() {
     case $1 in
         1)
             echo "Menjalankan 1st[INSTALL-1 Moodle - 1 MariaDB]"
-            rm -rf docker/moodlehaproxy/docker-compose.yml && \
-            cp /root/docker/moodlehaproxy/docker-compose.yml.1st /root/docker/moodlehaproxy/docker-compose.yml && \
-            cd /root/docker/moodlehaproxy && docker-compose -p 'moodlehaproxy' up --build
+            rm -rf ~/docker/moodlehaproxy/docker-compose.yml && \
+            cp ~/docker/moodlehaproxy/docker-compose.yml.1st ~/docker/moodlehaproxy/docker-compose.yml && \
+            cd ~/docker/moodlehaproxy && docker-compose -p 'moodlehaproxy' up --build
             ;;
         1s)
             echo "Menjalankan 1st[INSTALL-1 Moodle - 1 MariaDB] For Silent"
-            rm -rf docker/moodlehaproxy/docker-compose.yml && \
-            cp /root/docker/moodlehaproxy/docker-compose.yml.1st /root/docker/moodlehaproxy/docker-compose.yml && \
-            cd /root/docker/moodlehaproxy && docker-compose -p 'moodlehaproxy' -d
+            rm -rf ~/docker/moodlehaproxy/docker-compose.yml && \
+            cp ~/docker/moodlehaproxy/docker-compose.yml.1st ~/docker/moodlehaproxy/docker-compose.yml && \
+            cd ~/docker/moodlehaproxy && docker-compose -p 'moodlehaproxy' -d
             ;;
         2)
             echo "Menjalankan 2nd[INSTALL-2 Moodle - 1 MariaDB - 1 Haproxy]"
-            rm -rf docker/moodlehaproxy/docker-compose.yml && \
-            cp /root/docker/moodlehaproxy/docker-compose.yml.2nd /root/docker/moodlehaproxy/docker-compose.yml && \
-            cd /root/docker/moodlehaproxy && docker-compose -p 'moodlehaproxy' up --build
+            rm -rf ~/docker/moodlehaproxy/docker-compose.yml && \
+            cp ~/docker/moodlehaproxy/docker-compose.yml.2nd ~/docker/moodlehaproxy/docker-compose.yml && \
+            cd ~/docker/moodlehaproxy && docker-compose -p 'moodlehaproxy' up --build
             ;;
         2s)
             echo "Menjalankan 2nd[INSTALL-2 Moodle - 1 MariaDB - 1 Haproxy]"
-             rm -rf docker/moodlehaproxy/docker-compose.yml && \
-             cp /root/docker/moodlehaproxy/docker-compose.yml.2nd /root/docker/moodlehaproxy/docker-compose.yml && \
-             cd /root/docker/moodlehaproxy && docker-compose -p 'moodlehaproxy' -d
+             rm -rf ~/docker/moodlehaproxy/docker-compose.yml && \
+             cp ~/docker/moodlehaproxy/docker-compose.yml.2nd ~/docker/moodlehaproxy/docker-compose.yml && \
+             cd ~/docker/moodlehaproxy && docker-compose -p 'moodlehaproxy' -d
              ;;
         3)
             echo "Menghentikan Service"
@@ -55,7 +55,7 @@ run_command() {
             ;;
         6)
             echo "Isi direktori /root/docker/moodlehaproxy:"
-            ls -l /root/docker/moodlehaproxy
+            ls -l ~/docker/moodlehaproxy
             ;;
         x)
             echo "Keluar"
