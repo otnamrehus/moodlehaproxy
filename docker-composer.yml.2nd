@@ -14,7 +14,7 @@ services:
       - 'mariadb_data:/bitnami/mariadb:rw'
 
   moodle1:
-    image: bitnami/moodle:4.3
+    image: docker.io/bitnami/moodle:4.3
     container_name: moodle1
     ports:
       - '81:8080'
@@ -33,7 +33,7 @@ services:
       - mariadb
 
   moodle2:
-    image: bitnami/moodle:4.3
+    image: docker.io/bitnami/moodle:4.3
     container_name: moodle2
     ports:
       - '82:8080'
