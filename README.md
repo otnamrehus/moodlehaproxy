@@ -17,17 +17,17 @@
 
 
 
-    .....
-    1)  1st[INSTALL-1 Moodle - 1 MariaDB]  .:: Ctrl+C for Stop/Idle ::.
-    1s) *1st[INSTALL-1 Moodle - 1 MariaDB] .:: For Silent ::.
-    2)  2nd[INSTALL-2 Moodle - 1 MariaDB - 1 Haproxy]
-    2s)  2nd[INSTALL-2 Moodle - 1 MariaDB - 1 Haproxy] .:: For Silent ::.
-    3)  STOP Service
-    4)  START Service
-    5)  Remove Service
-    6)  Lihat isi direktori
-    x)  Keluar
-    .....
+    # .....
+    #1)  1st[INSTALL-1 Moodle - 1 MariaDB]  .:: Ctrl+C for Stop/Idle ::.
+    #1s) *1st[INSTALL-1 Moodle - 1 MariaDB] .:: For Silent ::.
+    #2)  2nd[INSTALL-2 Moodle - 1 MariaDB - 1 Haproxy]
+    #2s)  2nd[INSTALL-2 Moodle - 1 MariaDB - 1 Haproxy] .:: For Silent ::.
+    #3)  STOP Service
+    #4)  START Service
+    #5)  Remove Service
+    #6)  Lihat isi direktori
+    #x)  Keluar
+    #.....
     
 # Running
     - Open Browser     
