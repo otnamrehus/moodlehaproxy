@@ -15,6 +15,8 @@
 # Installation
     ./install_moodle.sh
 
+
+
     .....
     1)  1st[INSTALL-1 Moodle - 1 MariaDB]  .:: Ctrl+C for Stop/Idle ::.
     1s) *1st[INSTALL-1 Moodle - 1 MariaDB] .:: For Silent ::.
