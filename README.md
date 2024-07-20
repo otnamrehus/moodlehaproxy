@@ -6,8 +6,8 @@
     - Haproxy
     
 # Preparation
-    mkdir -p /root/docker && \
-    cd /root/docker && \
+    mkdir -p ~/docker && \
+    cd ~/docker && \
     git clone https://github.com/otnamrehus/moodlehaproxy.git && \
     cd moodlehaproxy && \
     chmod +x install_moodle.sh
