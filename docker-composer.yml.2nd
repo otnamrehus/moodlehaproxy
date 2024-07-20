@@ -1,7 +1,7 @@
 version: '2.2'
 services:
   mariadb:
-    image: bitnami/mariadb:11.2
+    image: docker.io/bitnami/mariadb:11.2
     container_name: mariadb_moodle
     environment:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
