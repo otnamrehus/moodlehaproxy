@@ -4,14 +4,17 @@
     - Moodle 4.3 [Bitnami]
     - MariaDB 11.2 [Bitnami]
     - Haproxy
+    
 # Preparation
-    mkdir -p /root/docker \
-    cd /root/docker \
-    git clone https://github.com/otnamrehus/moodlehaproxy.git \
-    cd moodlehaproxy \
+    mkdir -p /root/docker && \
+    cd /root/docker && \
+    git clone https://github.com/otnamrehus/moodlehaproxy.git && \
+    cd moodlehaproxy && \
     chmod +x install_moodle.sh
+    
 # Installation
     ./install_moodle.sh
+    
 # Running
     - Open Browser     
     - Haproxy Running 
