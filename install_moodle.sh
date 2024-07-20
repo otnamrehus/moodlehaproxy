@@ -43,19 +43,19 @@ run_command() {
              ;;
         3)
             echo "Menghentikan Service"
-            docker-compose -p 'moodledocker' stop
+            docker-compose -p 'moodlehaproxy' stop
             ;;
         4)
             echo "Memulai Service"
-            docker-compose -p 'moodledocker' start
+            docker-compose -p 'moodlehaproxy' start
             ;;
         5)
             echo "Menghapus Service"
-            docker-compose -p 'moodledocker' down -v
+            docker-compose -p 'moodlehaproxy' down -v
             ;;
         6)
-            echo "Isi direktori /root/docker/moodledocker:"
-            ls -l /root/docker/moodledocker
+            echo "Isi direktori /root/docker/moodlehaproxy:"
+            ls -l /root/docker/moodlehaproxy
             ;;
         x)
             echo "Keluar"
