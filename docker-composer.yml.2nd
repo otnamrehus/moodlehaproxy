@@ -33,7 +33,7 @@ services:
       - mariadb
 
   moodle2:
-    image: docker.io/bitnami/moodle:4.3
+    image: bitnami/moodle:4.3
     container_name: moodle2
     ports:
       - '82:8080'
