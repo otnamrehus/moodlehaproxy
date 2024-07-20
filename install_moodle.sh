@@ -2,7 +2,7 @@
 
 # Fungsi untuk menampilkan menu 
 show_menu() {
-    echo "Pilihan perintah:"
+    echo "OPTION CHOICE:"
     echo "1)  1st[INSTALL-1 Moodle - 1 MariaDB]  .:: Ctrl+C for Stop/Idle ::."
     echo "1s) *1st[INSTALL-1 Moodle - 1 MariaDB] .:: For Silent ::."
     echo "2)  2nd[INSTALL-2 Moodle - 1 MariaDB - 1 Haproxy]"
